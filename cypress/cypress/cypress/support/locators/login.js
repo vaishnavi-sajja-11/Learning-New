@@ -1,0 +1,5 @@
+export const ACCOUNTSLISTBUTTON = "#nav-link-accountList"
+export const EMAIL = "#ap_email"
+export const CONTINUE_BUTTON = "#continue"
+export const AUTH_ERROR_MSG_BOX = "#auth-error-message-box"
+export const ERRORHEADEING = ".a-alert-heading"

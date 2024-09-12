@@ -1,0 +1,27 @@
+#body{
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(181, 114, 214);
+}
+#name{
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(146, 79, 198);
+
+}
+.postNew{
+    background-color: rgb(181, 92, 199);
+    color: black;
+    border-radius: 10px;
+    border: 2px ;
+    text-align: center;
+}
+p{
+    align-items: center;
+    text-align: center;
+}
+label{
+    display: block;
+    margin-bottom: 0.05rem;
+    font-weight: bold;
+}
