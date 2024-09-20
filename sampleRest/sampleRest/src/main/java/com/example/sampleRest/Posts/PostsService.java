@@ -12,7 +12,7 @@ public class PostsService {
 	
 	private static List<Posts> post= new ArrayList<>();
 	static {
-		post.add(new Posts("Vaishnavi","This is a sample service"));
+		post.add(new Posts(1001,"Vaishnavi","This is a sample service"));
 	}
 	
 	public List<Posts> retriveAll() 

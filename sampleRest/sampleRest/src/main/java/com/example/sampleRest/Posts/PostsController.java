@@ -18,12 +18,10 @@ public class PostsController {
 	
 	@Autowired
 	PostsService service;
-	@CrossOrigin("*")
 	@GetMapping(path="/posts", produces= {"application/json"})
 	public List<Posts> getPosts() {
 		return service.retriveAll();
 	}
-	@CrossOrigin("*")
 	@PostMapping(path="/postData",produces= {"application/json"},consumes= {"application/json"})
 	public ResponseEntity<Posts> createNewpost(@RequestBody Posts post)
 	{

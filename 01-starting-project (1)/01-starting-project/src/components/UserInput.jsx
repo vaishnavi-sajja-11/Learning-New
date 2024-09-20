@@ -9,20 +9,24 @@ const INPUT = {
     expectedReturn : 6,
     duration : 12,
 };
-
 function UserInput(){
 
     const [ userInput , setUserInput ] = useState(INPUT);
+    const [ resultData, setResultData ] = useState(calculateInvestmentResults({...userInput}));
     function handleChange(inputIdentifier, inputValue){
         
         setUserInput(prevUserInput =>{
             return{
                 ...prevUserInput, 
-                [inputIdentifier] :inputValue
+                [inputIdentifier] : +inputValue
             };
+
         })
+        setResultData(calculateInvestmentResults({...userInput}));
+       
     }
-    let data = calculateInvestmentResults({...userInput});
+    const inputValid = userInput.duration > 0;
+
     return (
     <>
     <form id = 'user-input'> 
@@ -53,7 +57,8 @@ function UserInput(){
         </p>
     </div>
     </form>
-    <Result results={data}/>
+    {!inputValid && <p>Duration must be greater than zero (0)</p>}
+    {inputValid && <Result results={resultData}/>  }
 
     </>
     );
