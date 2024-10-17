@@ -1,0 +1,37 @@
+dialog.modal{
+    background-color: rgb(234, 186, 244);
+    border-radius: 25px;
+    border: 0.3px solid rgb(240, 205, 202) ;
+    box-shadow: inset;
+    width: 15rem;
+    height: 12rem;
+    z-index: 1;
+    filter: blur(0.2px);
+    position: fixed;
+}
+form> button{
+    border-radius: 17px;
+    border: 2px sloid black;
+    width: 5rem;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form > input{
+    margin: 2px auto;
+    padding: 2px auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+    width: 120px;
+    height: 10px;
+    display: block
+}
+dialog>form> textarea{
+    width: 130px;
+    height: 120px;
+    display: block;
+}

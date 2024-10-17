@@ -1,0 +1,13 @@
+
+
+.Todo-entries{
+    display: block;
+    justify-content: flex-start;
+    justify-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px auto;
+    margin: 40px auto;
+    width: 800px;
+    height: 200px;
+    font-size: large;
+}

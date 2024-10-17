@@ -1,0 +1,17 @@
+.grid-container{
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    gap: 30px 10px;
+    border-radius: 20px solid;
+    justify-content: center;
+}
+.item{
+    list-style: none;
+    border-radius: 25px;
+    border: 0.3px solid lavenderblush;
+    background-color: rgb(190, 131, 246);
+}
+button#close{
+    border: 2px solid black;
+}

@@ -1,0 +1,17 @@
+input{
+    color : black;
+    border: 10px solid;
+    font-size: large;
+}
+.entry{
+    margin: 30px auto;
+    padding: 20px auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    width: 600px;
+    height: 300px;
+}
+textarea{
+    width: 293px;
+    height: 79px;
+}
